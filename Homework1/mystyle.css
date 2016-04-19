@@ -1,0 +1,25 @@
+body {
+	margin: 5px 400px 5px 400px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #4b4b4b;
+
+}
+
+/*header*/
+center > img {
+	max-height: 150px;
+}
+
+body > header > nav {
+	border-top-style: groove;
+}
+
+/*content*/
+body > div > img {
+	width: 100%;
+}
+
+li {
+    display: inline;
+}
+
