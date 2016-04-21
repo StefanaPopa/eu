@@ -1,25 +1,123 @@
-body {
-	margin: 5px 400px 5px 400px;
-	font-family: 'Source Sans Pro', sans-serif;
-	color: #4b4b4b;
+	body {
+		margin: 5px 15% 5px 15%;
+		font-family: 'Source Sans Pro', sans-serif;
+		color: #4b4b4b;
+	}
 
-}
+	li {
+		    display: inline;
+	}
 
-/*header*/
-center > img {
-	max-height: 150px;
-}
+	/*header*/
+	center > img {
+		max-height: 150px;
+	}
 
-body > header > nav {
-	border-top-style: groove;
-}
+	body > header > nav {
+		border-top-style: ridge;
+		border-bottom-style: ridge;
+		margin-bottom: 5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		border-bottom-width: 1px;
+		border-top-width: 1px;
+	}
 
-/*content*/
-body > div > img {
-	width: 100%;
-}
+	body > header > nav > li > div {
+		float: right;
+		display: flex;
+	}
 
-li {
-    display: inline;
-}
+	body > header > nav > li:nth-child(5) > div{
+		margin-right: 3px;
+	}
+
+	body > header > nav > li > div > img {
+		height: 25px;
+		width: 25px;
+		background: darkgray;
+		position: relative;
+		top: -5px;
+	}
+	body > header > nav > li > div > img:nth-child(1):hover{
+		background: cornflowerblue;
+	}
+
+	/*content*/
+
+	/*1st line*/
+	body > div > div:nth-child(1) > img {
+		width: 100%;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	/*2nd line*/
+
+	body > div > div.line {
+		display: inline-flex;
+		max-height: 30px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		border-bottom-style: ridge;
+		border-top-style: ridge;
+		border-bottom-width: 1px;
+		border-top-width: 1px;
+	}
+
+	.line > img{
+		width: 40%;
+	}
+
+	.line > div{
+		width: 20%;
+		text-align: center;
+		padding-top: 8px;
+	}
+
+	/*3nd line*/
+
+	body > div > div:nth-child(3) { 
+		display: inline-flex;
+		max-height: 150px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	body > div > div:nth-child(3) > img{
+		width: 30%;
+	}
+
+	body > div > div:nth-child(3) > img:nth-child(3){
+		margin-left: auto;
+	}
+	body > div > div:nth-child(3) > img:nth-child(1){
+		margin-right: auto;
+	}
+
+	/*4nd line*/
+	body > div > div:nth-child(4) {
+		width: 100%;
+	}
+
+	body > div > div:nth-child(4) > img{
+		width: 100%;
+		max-height: 30px;
+	}
+
+	body > div > div:nth-child(4) > div{
+		position: relative;
+		top: -25px;
+		text-align: center;
+	}
+	body > div > div:nth-child(5){
+		text-align: -webkit-center;
+		color: darkgray;
+	}
+
+	
+
+
+
+
 
