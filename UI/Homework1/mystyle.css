@@ -9,7 +9,7 @@
 	}
 
 	/*header*/
-	center > img {
+	#id > img {
 		max-height: 150px;
 	}
 
@@ -39,14 +39,14 @@
 		position: relative;
 		top: -5px;
 	}
-	body > header > nav > li > div > img:nth-child(1):hover{
+	body > header > nav > li > div > img:hover{
 		background: cornflowerblue;
 	}
 
 	/*content*/
 
 	/*1st line*/
-	body > div > div:nth-child(1) > img {
+	#main_image > img {
 		width: 100%;
 		margin-top: 15px;
 		margin-bottom: 15px;
@@ -63,6 +63,10 @@
 		border-top-style: ridge;
 		border-bottom-width: 1px;
 		border-top-width: 1px;
+	}
+
+	#line1{
+		
 	}
 
 	.line > img{
