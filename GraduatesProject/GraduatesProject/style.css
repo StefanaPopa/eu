@@ -1,0 +1,58 @@
+body > div{
+	height: inherit;
+}
+
+
+#header{
+	max-height: 60px;
+}
+
+#logo > img {
+	width: 100%;
+}
+
+#content{
+	border-style: solid;
+	border-color: chocolate;
+	border-right-style: none;
+	border-width: thick;
+}
+
+#menu{
+	background: chocolate;
+
+}
+
+#footer{
+	max-height: 50px;
+}
+
+#header > div.layout-row.flex-7 > button
+{
+	border-radius: 10px;
+    background-color: darkorange;
+    max-height: 40px;
+    box-shadow: -4px 4px 10px 0 rgba(0,0,0,.26);
+}
+
+button {
+	width: 90%;
+	height: 50px;
+	background-color: lightgray;
+}
+
+#menu > ul > li >button {
+	font-weight: bold;
+		color: chocolate;
+}
+
+.md-button.md-raised:not([disabled]) {
+    box-shadow: 10px 10px 15px 0 rgba(0,0,0,.26);
+}
+ul{
+	width: 100%;
+}
+
+li {
+    list-style-type: none;
+}

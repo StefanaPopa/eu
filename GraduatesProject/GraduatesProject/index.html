@@ -1,0 +1,59 @@
+<html lang="en" >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Angular Material style sheet -->
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+  <link rel="stylesheet" type="text/css" href="normalize.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<body ng-app="BlankApp" ng-cloak>
+	  <!--
+	    Your HTML content here
+	  -->  
+		 <div layout="column">
+			   <div layout="row" flex="100" id="header" >
+			   		<div id="logo" layout="col" flex="15">
+			   			<img src="endava_logo_jpg.png">
+			   		</div>
+			   		<div layout="col" flex="80"></div>
+			   		<div layout="col" flex="7">
+			   			<md-button class="md-raised">Button</md-button>
+			   		</div>
+			   	
+			   </div>
+			   <div flex="100" layout="row" id="content">
+					  <div flex="15" layout="coulumn" id="menu">
+					  <ul>
+							 <li><md-button class="md-raised">Button</md-button></li>
+							  <li><md-button class="md-raised">Button</md-button></li>
+							   <li><md-button class="md-raised">Button</md-button></li>
+							    <li><md-button class="md-raised">Button</md-button></li>
+						</ul>
+					  </div>
+					  <div flex="85" layout="coulumn">
+					  
+					  </div>
+				</div>
+			  <div flex="100" layout="row" style="background: lightgray" id="footer">
+			  
+			  </div>
+		</div>
+	  <!-- Angular Material requires Angular.js Libraries -->
+	  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+	  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+	  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+	  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+
+	  <!-- Angular Material Library -->
+	  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+	  
+	  <!-- Your application bootstrap  -->
+	  <script type="text/javascript">    
+	    /**
+	     * You must include the dependency on 'ngMaterial' 
+	     */
+	    angular.module('BlankApp', ['ngMaterial']);
+	  </script>
+	  
+	</body>
+</html>
